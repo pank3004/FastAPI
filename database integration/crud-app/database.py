@@ -10,6 +10,7 @@ SQLALCHEMY_DATABASE_URL="sqlite:///./test.db"
 # You are using SQLite database
 # The database file name is test.db
 # It will be created in the current folder
+
 # If test.db does not exist → SQLAlchemy will create it automatically.
 
 engine=create_engine(
