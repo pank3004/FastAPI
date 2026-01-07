@@ -17,6 +17,7 @@ engine=create_engine(
     SQLALCHEMY_DATABASE_URL, connect_args={'check_same_thread':False}
 )
 
+
 # engine is the bridge between Python and the database
 # check_same_thread=False?
                 # SQLite normally allows only one thread
