@@ -4,7 +4,7 @@ from typing import Optional, Literal
 class InputSchema(BaseModel):
     longitude: float
     latitude: float
-    housing_median_age: int = Field(..., gt=0)
+    housing_median_age: int = Field(..., gt=0)   # ... means it is required (mandatory)
     total_rooms: StrictInt = Field(..., gt=0)
     total_bedrooms: StrictInt = Field(..., gt=0)
     population: int = Field(..., gt=0)
