@@ -194,3 +194,5 @@ cython_debug/
 .cursorindexingignore
 
 
+machine learning integration/ml_model/artifacts
+
