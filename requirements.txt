@@ -14,3 +14,10 @@ pytest
 httpx
 notebook
 redis[async]
+
+snakeviz
+line-profiler
+
+locust
+
+prometheus-fastapi-instrumentator
